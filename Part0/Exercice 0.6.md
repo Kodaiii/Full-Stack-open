@@ -6,5 +6,6 @@ sequenceDiagram
     activate server
     server-->>browser: HTTP status code 201
     deactivate server
-
+    
+    Note : No redirect this time
     
